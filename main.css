@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #00B2CA;
+    text-align: center;
+}
+
+.container {
+    background-color: #FBD1A2;
+    margin: auto;
+    width: 40%;
+    border: 6px solid #7DCFB6;
+    padding: 100px;
+    text-align: center;
+}
+
+#mySchools {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+#mySchools td, #mySchools th {
+    border: 1px solid #1D4E89;
+    padding: 8px;
+  }
+
+#mySchools th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1D4E89;
+    border: 1px solid white;
+    color: white;
+}
+
+#button {
+    background-color: #1D4E89;
+    border: none;
+    color: white;
+    padding: 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px
+  }
+
+#button:hover {
+    background-color: #4a80c2;
+    border: none;
+    color: white;
+    padding: 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px 
+}
+
+#button:disabled {
+    background-color: #616e7c;
+    border: none;
+    color: rgb(201, 190, 190);
+    padding: 2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px 
+}
